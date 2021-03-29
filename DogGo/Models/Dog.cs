@@ -12,7 +12,7 @@ namespace DogGo.Models
         public int OwnerId { get; set; }
         public Owner owner { get; set; }
         public string Breed { get; set; }
-        public List<string> Notes { get; set; }
+        public string Notes { get; set; }
         public string ImageUrl { get; set; }
     }
 }
